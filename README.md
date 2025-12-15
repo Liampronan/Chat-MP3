@@ -20,7 +20,7 @@ A music player component built with SwiftUI.
 ## How I'd use an additional hour on this prototype
 
 - Complete the implementation of the scrolling title view (for longer track/artist names).
-- Implement a widget layout to enable multi-context usage of the MusicPlayerView; tweak UI.
+- Implement a widget layout to enable multi-context usage of the MusicPlayerView; tweak UI for this new widget context.
 - Add light mode: right now, it's solely styled for Dark mode.
   - The colors are configured to support user switching system-level light/dark mode changing (via iOS Color Set assets) but I haven't added colors for light mode. 
 - Add loading progress view for album art; consider something like a gradient color based on the primary colors of the art [example](https://github.com/hulk-2019/camarts-placeholder).
