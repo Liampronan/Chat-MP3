@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F06972D2EEFB75400A4FF1A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4F06972C2EEFB74900A4FF1A /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4FDDECFB2EECD7DC00895F17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +28,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F06972C2EEFB74900A4FF1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4FDDECED2EECD7DB00895F17 /* Chat-MP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat-MP3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDDECFA2EECD7DC00895F17 /* Chat-MP3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat-MP3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDDED042EECD7DD00895F17 /* Chat-MP3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat-MP3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4FDDED272EECED3100895F17 /* Exceptions for "Chat-MP3" folder in "Chat-MP3" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4FDDECEC2EECD7DB00895F17 /* Chat-MP3 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4FDDECEF2EECD7DB00895F17 /* Chat-MP3 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FDDED272EECED3100895F17 /* Exceptions for "Chat-MP3" folder in "Chat-MP3" target */,
+			);
 			path = "Chat-MP3";
 			sourceTree = "<group>";
 		};
@@ -75,6 +93,7 @@
 		4FDDECE42EECD7DB00895F17 = {
 			isa = PBXGroup;
 			children = (
+				4F06972C2EEFB74900A4FF1A /* README.md */,
 				4FDDECEF2EECD7DB00895F17 /* Chat-MP3 */,
 				4FDDECFD2EECD7DC00895F17 /* Chat-MP3Tests */,
 				4FDDED072EECD7DD00895F17 /* Chat-MP3UITests */,
@@ -195,6 +214,8 @@
 			);
 			mainGroup = 4FDDECE42EECD7DB00895F17;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4FDDECEE2EECD7DB00895F17 /* Products */;
 			projectDirPath = "";
@@ -236,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F06972D2EEFB75400A4FF1A /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +422,7 @@
 				DEVELOPMENT_TEAM = 7TE3L47CX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chat-MP3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -413,12 +436,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "party.liam.Chat-MP3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,6 +459,7 @@
 				DEVELOPMENT_TEAM = 7TE3L47CX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chat-MP3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,12 +473,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "party.liam.Chat-MP3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

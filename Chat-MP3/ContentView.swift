@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Chat-MP3
-//
-//  Created by Liam Ronan on 12/12/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
