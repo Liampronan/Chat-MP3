@@ -2,9 +2,9 @@
 
 A music player component built with SwiftUI.
 
-## 📺 Video Walkthrough
+## Video Walkthrough
 
-[![Watch the demo](https://img.youtube.com/vi/mTLKXhkqEZw/0.jpg)](https://www.youtube.com/watch?v=mTLKXhkqEZw)
+[![Watch the demo](https://i.imgur.com/jLZSTw3.png)](https://www.youtube.com/watch?v=mTLKXhkqEZw)
 
 **Video Timeline:**
 
@@ -14,6 +14,8 @@ A music player component built with SwiftUI.
 - 06:40 - Accessibility
 - 07:33 - Progress, Error view
 - 08:54 - Design-Code Tie-Ins for Scaling UX Beyond Prototyp
+
+[Watch the demo](https://www.youtube.com/watch?v=mTLKXhkqEZw)
 
 ---
 
